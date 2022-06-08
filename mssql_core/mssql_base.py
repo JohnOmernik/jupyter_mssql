@@ -54,7 +54,7 @@ class Mssql(Pyodbc):
     # Class Init function - Obtain a reference to the get_ipython()
 
     def __init__(self, shell, debug=False, *args, **kwargs):
-        super(Impala, self).__init__(shell, debug=debug)
+        super(Mssql, self).__init__(shell, debug=debug)
         self.debug = debug
 
         #Add local variables to opts dict
