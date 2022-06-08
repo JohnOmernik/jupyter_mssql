@@ -71,7 +71,7 @@ class Mssql(Pyodbc):
         status = ""
         resubmit = False
         try:
-            self.instances[instace]['session'].execute(query)
+            self.instances[instance]['session'].execute(query)
             mydf = self.as_pandas_DataFrame(instance)
             if mydf is not None:
                 status = "Success"
