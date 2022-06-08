@@ -1,0 +1,17 @@
+bulld/*
+build/**
+__pycache__
+__pycache__/*
+__pycache__/**
+*/__pycache__
+**/__pycache__
+jupyter_mssql
+jupyter_mssql/*
+jupyter_mssql/**
+dist
+dist/*
+dist/**
+build
+*.env
+**.env
+
