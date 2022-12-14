@@ -5,13 +5,12 @@ __pycache__/*
 __pycache__/**
 */__pycache__
 **/__pycache__
-jupyter_mssql
-jupyter_mssql/*
-jupyter_mssql/**
+jupyter_mssql.egg-info
+jupyter_mssql.egg-info/*
+jupyter_mssql.egg-info/**
 dist
 dist/*
 dist/**
 build
 *.env
 **.env
-
